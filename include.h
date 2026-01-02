@@ -7,10 +7,18 @@
 
 #define GRID_SIZE 3
 #define TILE_SIZE 200
+
+#ifdef _WIN32
 #define KEY_UP 2490368
 #define KEY_DOWN 2621440
 #define KEY_LEFT 2424832
 #define KEY_RIGHT 2555904
+#elif defined(__linux__)
+#define KEY_UP 65362
+#define KEY_DOWN 65364
+#define KEY_LEFT 65361
+#define KEY_RIGHT 65363
+#endif
 
 struct Tile
 {
