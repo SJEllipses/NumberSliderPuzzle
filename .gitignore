@@ -1,4 +1,5 @@
 .vscode
+publish
 /build/*
 !/build/
 !/build/pic/

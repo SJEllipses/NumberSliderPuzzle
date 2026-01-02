@@ -9,11 +9,16 @@ A simple 3x3 Number Slider Puzzle game based on OpenCV.
 
   
 ## How to build
-Make sure you **modified the 'OpenCV_DIR' in CMakeLists**.  
+
+### Windows
 
 ```bash
 cd build
-cmake -G "MinGW Makefiles" ..
+
+# CMAKE_BUILD_TYPE can be Release or Debug
+# OpenCV_DIR is the path to your OpenCV installation
+cmake -G "MinGW Makefiles" -D CMAKE_BUILD_TYPE=Release -D OpenCV_DIR=<your_openCV_installation_path> ..
+
 make
 ```
   
@@ -22,4 +27,4 @@ make
 ## Additional
 I don't work as a programmer, this is a learning-oriented project.
   
-  Enjoy.
+Enjoy.
