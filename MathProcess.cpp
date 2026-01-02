@@ -36,7 +36,7 @@ std::vector<int> PointsToInts(std::vector<Tile> &tiles)
     return result;
 }
 
-int Calculateinversions(std::vector<int> numbers)
+int CalculateInversions(std::vector<int> numbers)
 {
     int result = 0;
     for (int i = 0; i < numbers.size(); i++)

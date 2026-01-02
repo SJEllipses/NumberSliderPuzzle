@@ -36,7 +36,7 @@ void DrawTiles(cv::Mat &canvas, const std::vector<Tile> &tiles);
 // MathProcess.cpp
 int PointToInt(cv::Point point);
 std::vector<int> PointsToInts(std::vector<Tile> &tiles);
-int Calculateinversions(std::vector<int> numbers);
+int CalculateInversions(std::vector<int> numbers);
 
 // InputProcess.cpp
 int GetEmptyIndex(std::vector<Tile> tiles);
