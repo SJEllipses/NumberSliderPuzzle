@@ -4,3 +4,4 @@ publish
 !/build/
 !/build/pic/
 !/build/pic/*
+.DS_Store

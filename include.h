@@ -18,6 +18,11 @@
 #define KEY_DOWN 65364
 #define KEY_LEFT 65361
 #define KEY_RIGHT 65363
+#elif defined(__APPLE__)
+#define KEY_UP 63232
+#define KEY_DOWN 63233
+#define KEY_LEFT 63234
+#define KEY_RIGHT 63235
 #endif
 
 struct Tile
